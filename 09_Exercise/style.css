@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    min-width: 400px;
+    max-width: 80vw;
+    border-radius: 6%;
+    border: 2px solid rgb(217, 224, 231);
+    margin: auto;
+    margin-top: 20px;
+    min-height: 500px;
+    max-height: 1080px;
+    background-color: white;
+    box-shadow: 2px 15px 12px rgb(97, 98, 100);
+}
+
+.box{
+    border: 1px solid rgba(176, 172, 172, 0.434);
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 20px;
+    color: rgba(152, 155, 157, 0.748);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content button {
+    border: 1px solid rgba(208, 228, 234, 0.5);
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(181, 220, 240, 0.5);
+    color: rgb(0, 115, 255);
+    text-align: center;
+    /* display: inline-block;
+    margin-left: 40%;
+    margin-top: 4%; */
+    display: block;
+    margin: 40px auto;
+}
+
+.card img{
+    width:100%;
+    height: 300px;
+    object-fit: fill;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.card .content p{
+    padding-top: 20px;
+    color: rgba(152, 155, 157, 0.748);
+}
+
+.card .content button:hover {
+      background-color: rgba(151, 183, 199, 0.5);
+}
+
+.box:hover {
+    background-color: rgba(230, 230, 230, 0.5);
+}

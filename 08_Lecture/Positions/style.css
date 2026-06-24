@@ -1,0 +1,49 @@
+/* default every element is static position */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.box{
+    margin: auto;
+    width: 60vw;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top:20px;
+    height: 500px;
+    /* position: sticky; */
+}
+
+.box-1{
+    background-color: rgb(253, 26, 26);
+    /* position: absolute; */
+    /* position: relative;
+    z-index: 1; */
+    position: sticky;
+    top: 0px;
+}
+.box-2{
+    background-color: rgb(92, 242, 59);
+    /* position: relative;
+    top: 50px;
+    right: 90px;
+    z-index: 0; */
+}
+.box-3{
+    background-color: rgb(225, 141, 31);
+}
+
+.box-4{
+    background-color: rgb(22, 182, 231);
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+}
+
+.box-5{
+    background-color: rgb(185, 79, 217);
+    /* position:absolute;
+    top:40px;
+    right: 40px; */
+}
